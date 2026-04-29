@@ -1,10 +1,44 @@
- /* ABOUT */
-  #about{background:#0d0d0d;}
-  .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;}
-  .about-text p{color:var(--muted);font-size:1.05rem;line-height:1.8;margin-bottom:1.2rem;}
-  .about-text p strong{color:var(--fg);}
-  .about-stats{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
-  .stat-card{background:#111;border:1px solid #1e1e1e;border-radius:16px;padding:1.5rem;transition:border-color .3s,transform .3s;}
-  .stat-card:hover{border-color:var(--c3);transform:translateY(-4px);}
-  .stat-num{font-size:2.2rem;font-weight:900;margin-bottom:.3rem;}
-  .stat-label{font-size:.8rem;color:var(--muted);letter-spacing:.1em;}
+/* ABOUT */
+#about{background:#0d0d0d;}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;}
+.about-text p{color:var(--muted);font-size:1.05rem;line-height:1.8;margin-bottom:1.2rem;}
+.about-text p strong{color:var(--fg);}
+.about-stats{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+.stat-card{background:#111;border:1px solid #1e1e1e;border-radius:16px;padding:1.5rem;transition:border-color .3s,transform .3s;}
+.stat-card:hover{border-color:var(--c3);transform:translateY(-4px);}
+.stat-num{font-size:2.2rem;font-weight:900;margin-bottom:.3rem;}
+.stat-label{font-size:.8rem;color:var(--muted);letter-spacing:.1em;}
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="sec-header reveal">
+    <span class="sec-num">01</span>
+    <h2 class="sec-title">About me</h2>
+    <div class="sec-line"></div>
+  </div>
+  <div class="about-grid reveal">
+    <div class="about-text">
+      <p>I'm <strong>Shivam Vaid</strong> — a first-year CS student with a builder's soul and a restless mind. I'm the kind of person who's thinking three moves ahead while still figuring out what today's move is.</p>
+      <p>I code, I write, I guide, I eat really good food. I believe <strong>life should be explored</strong> — whether that's a new city's street food or a new idea at 2am that you just have to build.</p>
+      <p>I'm also building <strong>Shivam Speaks</strong> — a YouTube channel about self-improvement, the CS journey, and what it actually feels like to become something.</p>
+    </div>
+    <div class="about-stats">
+      <div class="stat-card">
+        <div class="stat-num" style="color:var(--c1);">1</div>
+        <div class="stat-label">Voice AI project shipped</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" style="color:var(--c2);">∞</div>
+        <div class="stat-label">Cities left to eat in</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" style="color:var(--c3);">1</div>
+        <div class="stat-label">Book read & absorbed</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" style="color:var(--c4);">100%</div>
+        <div class="stat-label">Always in my feels</div>
+      </div>
+    </div>
+  </div>
+</section>
